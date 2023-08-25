@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Tester\**" />
+    <None Remove="tmp.csx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Tester\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Tester\**" />
+  </ItemGroup>
+
+</Project>
