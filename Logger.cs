@@ -1,5 +1,8 @@
 ﻿namespace uLog;
 
+/// <summary>
+/// A very small and easy-to-use class for simple logging.
+/// </summary>
 public class Logger {
 
 	/// <summary>
