@@ -11,10 +11,12 @@
     <Authors>WoMspace</Authors>
     <Description>A small logging utility, designed for simplicity and ease rather than having all of the features.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
     
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="readme.md" Pack="true" PackagePath="\"/>
     <Compile Remove="Tester\**" />
     <None Remove="tmp.csx" />
   </ItemGroup>
