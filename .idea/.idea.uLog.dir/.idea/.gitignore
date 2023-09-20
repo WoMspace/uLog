@@ -12,3 +12,6 @@
 # Sasha ignored files
 /bin/
 /obj/
+/Tester/
+/.idea/
+.DS_Store

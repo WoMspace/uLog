@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     
-    <PackageId>WoMspace.uLog</PackageId>
+    <PackageId>uTools.uLog</PackageId>
     <Version>1.0.0</Version>
     <Authors>WoMspace</Authors>
     <Description>A small logging utility, designed for simplicity and ease rather than having all of the features.</Description>
