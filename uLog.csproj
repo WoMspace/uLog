@@ -6,13 +6,14 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     
     <PackageId>uTools.uLog</PackageId>
-    <Version>1.1.0</Version>
+    <Version>1.2.0</Version>
     <Authors>WoMspace</Authors>
     <Description>A small logging utility, designed for simplicity and ease rather than having all of the features.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
-    <PackageReleaseNotes>Switched to netstandard2.0 from net7.0</PackageReleaseNotes>
+    <PackageReleaseNotes>Fixed missing flush. Actually works now 😅</PackageReleaseNotes>
     <RootNamespace>uTools.uLog</RootNamespace>
+    <RepositoryUrl>https://github.com/WoMspace/uLog</RepositoryUrl>
     
   </PropertyGroup>
 

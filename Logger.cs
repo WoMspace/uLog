@@ -92,7 +92,10 @@ public class Logger {
 	/// </summary>
 	/// <param name="line">The message to write.</param>
 	private void WriteOutput(string line) {
-		foreach(var writer in outputs) { writer.WriteLine(line); }
+		foreach(var writer in outputs) {
+			writer.WriteLine(line);
+			writer.Flush();
+		}
 	}
 
 	/// <summary>
